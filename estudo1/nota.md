@@ -88,3 +88,7 @@ Para pegar o resultado de uma regex se utiliza o o método `match` de string do 
 **Espaços**: Para indicar que um espaço em uma regex se utiliza: `\s`.
 
 **Parênteses literais:** Para indicar parênteses literais nas regex: `\(` + regex que indica o conteúdo dentro do parênteses +`\)` = `/\([regex]\)/`
+
+# estudo 1.10
+
+![lista de metacaracteres](metacaracteres.png)
