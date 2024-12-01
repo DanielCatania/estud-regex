@@ -94,3 +94,9 @@ Para pegar o resultado de uma regex se utiliza o o método `match` de string do 
 # estudo 1.10
 
 ![lista de metacaracteres](assets/metacaracteres.png)
+
+# estudo 2.1
+
+## Quantificadores
+
+Para indicar que algo deve se repetir um número finito de vezes utiliza-se: `{n}` ao invés de `+`, como por exemplo para pegar uma sequência de dois dígitos ficaria `/d{2}/`. Para indicar uma faixa de trabalho se utiliza vírgula dentro das chaves, como por exemplo pegar uma sequência entre dois e quatro dígitos ficaria `/d{2,4}/`.
