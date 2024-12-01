@@ -132,3 +132,9 @@ O `$` (cifrão) ao final de uma regex indica que deve estar no final da linha.
 ## Flag m
 
 Para indicar ao regex que está trabalhando com várias linhas se utiliza a flag `m` após a regex: `/[regex]/gm`.
+
+# estudo 3.1
+
+## Lidar com acentos:
+
+Para lidar com acentos utiliza-se a classe: [Á-ÿ].
