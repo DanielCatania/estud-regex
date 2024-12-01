@@ -15,3 +15,21 @@ O regex aceita buscas literais, que você pede diretamente o que você deseja:
 ### exemplo:
 
 ![Imagem de exemplo sobre buscais literais](buscas-literais.png)
+
+# estudo 1.5
+
+## Buscas regex no terminal:
+
+**Comando linux:**
+
+```
+$ grep [regex] [path]
+```
+
+**GREP:** Global Regular Expression Print.
+
+## Processos da regex:
+
+![Processo de funcionamento de uma regex](processo.png)
+
+Outro termo para referenciar a regex engine é flavor.
