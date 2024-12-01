@@ -120,3 +120,15 @@ Classes são conjuntos de caracteres que se encaixam na seu padrão de busca, po
 ## Escapes
 
 ![Escapes](assets/escapes.png)
+
+# estudo 2.5
+
+## Âncoras
+
+Âncoras no regex indicam a posição de um caracter na string.
+
+O `$` (cifrão) ao final de uma regex indica que deve estar no final da linha.
+
+## Flag m
+
+Para indicar ao regex que está trabalhando com várias linhas se utiliza a flag `m` após a regex: `/[regex]/gm`.
