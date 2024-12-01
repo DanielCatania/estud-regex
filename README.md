@@ -106,3 +106,17 @@ Para indicar que algo deve se repetir um número finito de vezes utiliza-se: `{n
 ## Classes
 
 Classes são conjuntos de caracteres que se encaixam na seu padrão de busca, por exemplo você deseja capturar todos os ponto e pontos e vírgulas: `/[.;]/`. Para tornar as classes opcionais você pode adicionar `?` após a classe: `[/[.;]?/]`
+
+# estudo 2.3
+
+## Classes de caracteres
+
+![Classes de caracteres](assets/classes-de-caracteres.png)
+
+## Shorthands
+
+![Shorthands](assets/shorthands.png)
+
+## Escapes
+
+![Escapes](assets/escapes.png)
