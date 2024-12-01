@@ -66,3 +66,11 @@ Outro termo para referenciar a regex engine é flavor.
 O comando `findstr` no terminal Windows permite buscar texto em arquivos ou na saída de outros comandos, com suporte a expressões regulares básicas usando a opção `/r`. Exemplo: `findstr /r "padrão_regex" arquivo.txt`.
 
 No PowerShell, o suporte a expressões regulares é completo, podendo-se usar o operador `-match` para verificar se uma string corresponde a um padrão. Exemplo: `Get-Content arquivo.txt | ForEach-Object { if ($_ -match "padrão_regex") { $_ } }`.
+
+# estudo 1.7
+
+## Regex e js
+
+Para indicar no javascript uma regex o termo deve estar entre barras (/ /): `const regex = /[regex]/;`.
+
+Para pegar o resultado de uma regex se utiliza o o método `match` de string do javascript`String.match([regex]);` .
