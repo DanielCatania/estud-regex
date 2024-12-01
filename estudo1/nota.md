@@ -74,3 +74,17 @@ No PowerShell, o suporte a expressões regulares é completo, podendo-se usar o 
 Para indicar no javascript uma regex o termo deve estar entre barras (/ /): `const regex = /[regex]/;`.
 
 Para pegar o resultado de uma regex se utiliza o o método `match` de string do javascript`String.match([regex]);` .
+
+# estudo 1.8
+
+## Metacaracteres:
+
+**Dígitos:** Para indicar que a regex deve pegar um dígito (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) se utiliza: `/\d/`.
+
+**Sequênicas:** Para indicar sequênicias no regex se utiliza o `+`, como por exemplo para indicar uma sequência de dígitos: `/\d+/`.
+
+**Selecionar vários:** Para indicar que a regex deve se pegar todos os termos compatíveis se utilza `/[regex]/g` com o **g** no final, como por exemplo: `/d+/g`;
+
+**Espaços**: Para indicar que um espaço em uma regex se utiliza: `\s`.
+
+**Parênteses literais:** Para indicar parênteses literais nas regex: `\(` + regex que indica o conteúdo dentro do parênteses +`\)` = `/\([regex]\)/`
