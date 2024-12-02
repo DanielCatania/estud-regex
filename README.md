@@ -138,3 +138,13 @@ Para indicar ao regex que está trabalhando com várias linhas se utiliza a flag
 ## Lidar com acentos:
 
 Para lidar com acentos utiliza-se a classe: [Á-ÿ].
+
+# estudo 3.3
+
+## grupos de captura
+
+Grupo de captura é uma funcionalidade do regex que permite agrupar partes correspondentes para serem referênciadas de forma única. Cada grupo de captura é definido por parênteses `()`
+
+## Âncora ^
+
+Para indicar ao regex que algo deve estar no começo da linha se usa a âncora `^` no começo: `/^[regex]/gm`.
