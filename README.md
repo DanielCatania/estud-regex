@@ -148,3 +148,9 @@ Grupo de captura é uma funcionalidade do regex que permite agrupar partes corre
 ## Âncora ^
 
 Para indicar ao regex que algo deve estar no começo da linha se usa a âncora `^` no começo: `/^[regex]/gm`.
+
+# estudo 3.4
+
+## Grupos De Não Captura
+
+Um grupo de não captura é uma técnica utilizada para agrupar partes sem que essa seja considerada um grupo. Para utilizar um grupo de não captura usa-se o `?:` anterior ao grupo: `/?:regex/`
