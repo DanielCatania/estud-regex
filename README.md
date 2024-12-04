@@ -154,3 +154,15 @@ Para indicar ao regex que algo deve estar no começo da linha se usa a âncora `
 ## Grupos De Não Captura
 
 Um grupo de não captura é uma técnica utilizada para agrupar partes sem que essa seja considerada um grupo. Para utilizar um grupo de não captura usa-se o `?:` anterior ao grupo: `/?:regex/`
+
+# estudo 4.2
+
+## Greedy e Lazy
+
+### Greedy
+
+Greedy dentro das regex é o comportamento de pegar o máximo de conteúdo que se encaixa ao padrão. É determinada por `*`.
+
+### Lazy
+
+Lazy dentro das regex é o comportamento de pegar o mínimo de conteúdo que se encaixa dentro do padrão. É determinada por `*?`.
