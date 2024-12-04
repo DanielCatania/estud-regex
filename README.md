@@ -192,3 +192,9 @@ Lazy dentro das regex é o comportamento de pegar o mínimo de conteúdo que se 
 | ?? (lazy)      | Corresponde a 0 ou 1 ocorrência (não ganancioso).                      | a.??b corresponde a "ab" em "aab" (correspondência mais curta possível).      |
 | {n,m} (greedy) | Corresponde a pelo menos n e no máximo m ocorrências (ganancioso).     | a{2,3} corresponde a "aaa" em "aaaa" (correspondência mais longa possível).   |
 | {n,m}? (lazy)  | Corresponde a pelo menos n e no máximo m ocorrências (não ganancioso). | a{2,3}? corresponde a "aa" em "aaaa" (correspondência mais curta possível).   |
+
+# estudo 4.5
+
+## Backreference
+
+Backreference é usado para referenciar e reutilizar grupos de capturas anteriores. Cada grupo de captura recebe o número cronológico de sua aparição, primeiro grupo é o 1, o segundo é o 2 e assim por diante. Para usá-las: `\n`, sendo n o número do grupo.
