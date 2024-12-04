@@ -166,3 +166,29 @@ Greedy dentro das regex é o comportamento de pegar o máximo de conteúdo que s
 ### Lazy
 
 Lazy dentro das regex é o comportamento de pegar o mínimo de conteúdo que se encaixa dentro do padrão. É determinada por `*?`.
+
+# estudo 4.3
+
+## Quantificadores
+
+| Quantificador | Descrição                                                                     | Exemplo                                                               |
+| ------------- | ----------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| \*            | Coincide com 0 ou mais ocorrências do elemento anterior.                      | a\* corresponde a "", "a", "aa", "aaa", etc.                          |
+| +             | Coincide com 1 ou mais ocorrências do elemento anterior.                      | a+ corresponde a "a", "aa", "aaa", etc., mas não a "".                |
+| ?             | Coincide com 0 ou 1 ocorrência do elemento anterior.                          | a? corresponde a "" ou "a".                                           |
+| {n}           | Coincide exatamente com “n” ocorrências do elemento anterior.                 | a{3} corresponde a "aaa", mas não a "aa" ou "a".                      |
+| {n,}          | Coincide com pelo menos “n” ocorrências do elemento anterior.                 | a{2,} corresponde a "aa", "aaa", "aaaa", etc.                         |
+| {n,m}         | Coincide com pelo menos “n” e no máximo “m” ocorrências do elemento anterior. | a{2,4} corresponde a "aa", "aaa" ou "aaaa", mas não a "a" ou "aaaaa". |
+
+## Greedy e Lazy
+
+| Quantificador  | Descrição                                                              | Exemplo                                                                       |
+| -------------- | ---------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| \* (greedy)    | Corresponde a 0 ou mais ocorrências (ganancioso).                      | a.\*b corresponde a "aabab" em "aabab" (correspondência mais longa possível). |
+| \*? (lazy)     | Corresponde a 0 ou mais ocorrências (não ganancioso).                  | a.\*?b corresponde a "aab" em "aabab" (correspondência mais curta possível).  |
+| + (greedy)     | Corresponde a 1 ou mais ocorrências (ganancioso).                      | a.+b corresponde a "aabab" em "aabab" (correspondência mais longa possível).  |
+| +? (lazy)      | Corresponde a 1 ou mais ocorrências (não ganancioso).                  | a.+?b corresponde a "aab" em "aabab" (correspondência mais curta possível).   |
+| ? (greedy)     | Corresponde a 0 ou 1 ocorrência (ganancioso).                          | a.?b corresponde a "ab" em "aab" (correspondência mais longa possível).       |
+| ?? (lazy)      | Corresponde a 0 ou 1 ocorrência (não ganancioso).                      | a.??b corresponde a "ab" em "aab" (correspondência mais curta possível).      |
+| {n,m} (greedy) | Corresponde a pelo menos n e no máximo m ocorrências (ganancioso).     | a{2,3} corresponde a "aaa" em "aaaa" (correspondência mais longa possível).   |
+| {n,m}? (lazy)  | Corresponde a pelo menos n e no máximo m ocorrências (não ganancioso). | a{2,3}? corresponde a "aa" em "aaaa" (correspondência mais curta possível).   |
