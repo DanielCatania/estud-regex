@@ -204,3 +204,9 @@ Backreference é usado para referenciar e reutilizar grupos de capturas anterior
 ## Metachar \b
 
 O metachar `\b` define que tenha um "isolamento" da regex, garantido que aquele elemento buscado esteja separado de um caracter de palavra (letras, números e underline).
+
+# estudo 5.5
+
+## Lookhead
+
+Lookhead é o conceito de "olhar para frente", basicamente o conceito deterimada que em uma string temos X e Y posicionados, se for um lookhead positivo você só quer o X se ele estiver em frente ao Y e o negativo só se ele não estiver em frente ao Y. Esse conceito permite você capturar o X sem capturar o Y, mesmo que necessariamente um precise estar em frente ao outro.
