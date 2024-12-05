@@ -198,3 +198,9 @@ Lazy dentro das regex é o comportamento de pegar o mínimo de conteúdo que se 
 ## Backreference
 
 Backreference é usado para referenciar e reutilizar grupos de capturas anteriores. Cada grupo de captura recebe o número cronológico de sua aparição, primeiro grupo é o 1, o segundo é o 2 e assim por diante. Para usá-las: `\n`, sendo n o número do grupo.
+
+# estudo 4.7
+
+## Metachar \b
+
+O metachar `\b` define que tenha um "isolamento" da regex, garantido que aquele elemento buscado esteja separado de um caracter de palavra (letras, números e underline).
